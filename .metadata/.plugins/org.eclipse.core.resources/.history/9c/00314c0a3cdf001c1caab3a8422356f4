@@ -1,0 +1,10 @@
+package Exercise9;
+
+public class CurrentSystemDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

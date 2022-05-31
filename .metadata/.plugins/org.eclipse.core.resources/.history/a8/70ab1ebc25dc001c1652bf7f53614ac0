@@ -1,0 +1,8 @@
+package Exercise2;
+
+public class InvalidName extends RuntimeException {
+	public InvalidName(StringName) {
+		super(msg);
+	}
+
+}

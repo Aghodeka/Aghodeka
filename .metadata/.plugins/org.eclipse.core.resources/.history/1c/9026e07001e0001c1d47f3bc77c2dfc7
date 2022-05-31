@@ -1,0 +1,21 @@
+package Practice;
+import java.io.*;
+public class SumEvenNumbers {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int arr[] = {11,29,31,45,5,34};
+		int even = 0;
+		for (int i =0; i< arr.length;i++) {
+			if (i % 2 == 0)
+				even  += arr[i] ;
+			else
+			
+			System.out.println("Even index positions sum: " + even);
+				
+		}
+
+	}
+
+}

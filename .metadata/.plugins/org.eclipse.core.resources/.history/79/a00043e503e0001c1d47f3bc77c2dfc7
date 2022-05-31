@@ -1,0 +1,25 @@
+package Practice;
+import java.io.*;
+public class SumEvenNumbers {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int arr[] = {11,29,31,45,5,34};
+		Intf1 ref = (a) -> {
+			int sum =0;
+			for (int i=0 ; i<arr.length;i++) {
+				if( arr[i]%2 ==0) {
+					
+				}
+			}
+			System.out.println("the sum of even number is :");
+		 return sum;
+		};
+		System.out.println(ref.evenSum(arr));
+				
+		}
+
+	}
+
+

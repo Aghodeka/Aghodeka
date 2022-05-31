@@ -1,0 +1,8 @@
+package Exercise1;
+
+public class SavingAccountExtendAccount 
+{
+	public SavingAccountExtendAccount(String name, float age, long accNum, double balance) {
+		super ();
+	}
+	

@@ -1,0 +1,34 @@
+package lab2;
+class SecondSmallest{
+	static void print2smallest(int arr[]) {
+		int first, second, arr_size = arr.length;
+		if (arr_size < 2) {
+			System.out.println(" invalid Input");
+			return;
+		}
+		 first = second = Integer.MAX_VALUE;
+		 for (int i = 0; i< arr_size; i++) {
+			 if( arr[i] < first) {
+				 second = first;
+				 first = arr[i];
+				 
+				 
+			 }
+			 else if (arr[i]< second && arr[i]!=first)
+				 second = arr[i];
+			 
+		 }
+		 if(second == Integer.MAX_VALUE) {
+			 System.out.println("there is no second "+ first + " and second smallest" +"element is " + second);
+			 
+		 }
+	
+		 {
+			 int arr1[] = {12, 13, 14, 1, 10, 34};
+			 print2smallest(arr1);
+			 
+			 
+		 }
+	}
+	
+}

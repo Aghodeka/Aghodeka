@@ -1,0 +1,34 @@
+package Exercise2;
+
+import java.util.Scanner;
+
+import Exercise1.AgeException;
+
+public class ValidFullNameOfEmployee {
+ 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s= new Scanner (System.in);
+		System.out.println("Enter the name");
+        String name=s.next();
+        try
+        {
+        	for(int i=0) ;i{
+        		int i;
+				int ch=(int)name.charAt(i);
+				if((ch>65&&ch<=90)||(ch>97&&ch<=122)) {
+				}
+				else
+				}
+        		throw new Exception();
+        }
+	}
+	System.out.println("Employee name is : "+name)
+        	}
+         catch(AgeException e)
+         {
+        	 System.out.println("Invalid Name");
+        }
+	}
+
+}

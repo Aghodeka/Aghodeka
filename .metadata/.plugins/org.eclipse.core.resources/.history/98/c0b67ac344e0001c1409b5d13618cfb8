@@ -1,0 +1,20 @@
+package Exercise1;
+
+public class SavingAccountExtendAccount 
+{
+	public SavingAccountExtendAccount(String name, float age, long accNum, double balance) {
+		super ();
+	}
+	private final double minBalance = 500;
+	
+	public void withdraw(double bal) 
+	{
+	
+		if((super.getBalance()-bal)<this.minBalance));
+		  System.out.println("sorry !! minimum balance should be INR 1000");
+		else
+			super.setBalance(super.getBalance()-bal);
+	}
+}
+}
+}

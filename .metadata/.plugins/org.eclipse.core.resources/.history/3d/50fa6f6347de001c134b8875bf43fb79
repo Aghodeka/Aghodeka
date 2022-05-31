@@ -1,0 +1,16 @@
+package Exercise3;
+import java.util.Scanner;
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter your sallery of employee");
+      long sal=sc.nextLong();
+      if(sal<3000)
+      {
+    	  throw new com.cg.eis.exception.EmployeeException()
+      }
+	}
+
+}

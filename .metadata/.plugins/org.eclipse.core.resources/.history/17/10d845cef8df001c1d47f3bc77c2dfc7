@@ -1,0 +1,27 @@
+package Practice;
+import java.util.Scanner;
+@FunctionalInterface
+interface Intf1{
+	int sum(int n);
+}
+public class NaturalNumber{
+
+	private static int n;
+	private static int m;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the number");
+		int i=sc.nextInt();
+      
+     Intf1 intf =(int num) -> {  
+    	  return n*(n+1)/2 ;
+     };
+    	 System.out.println("the sum of "+m+" Natural Number : ");
+    	 System.out.println(intf.sum(m));
+      
+	}
+}
+
+

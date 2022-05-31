@@ -1,0 +1,46 @@
+package Exercise1;
+import java .util.Scanner;
+
+
+public class AgeException {
+	public static void AgeException (String[]args){
+		
+      Scanner sc = new Scanner (System.in);
+      try {
+      System.out.println("enter your age: ");
+      int age = sc.nextInt();
+       if (age < 15)
+    	  {
+    		  throw new AgeException("your age is under limit,can't vote");
+    	  }
+    	  System.out.println("you are eligible to vote");
+      }
+      catch(AgeException e) {
+    	  e.printStackTrace();
+    	  
+      }
+     
+
+	}
+
+	private void printStackTrace() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+      
+
+     
+    
+
+    
+    
+    
+
+
+	
+    
+    
+	
+
+

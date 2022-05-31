@@ -1,0 +1,17 @@
+package Exercise1;
+
+public class Account {
+
+	
+    public Account(String name, float age, long accNum , double balance) {
+    	super(name , age, accNum, balance);
+    	
+    }
+
+	public double getBalance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	}
+
+}

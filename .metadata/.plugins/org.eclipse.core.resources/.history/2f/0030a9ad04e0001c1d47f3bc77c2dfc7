@@ -1,0 +1,31 @@
+package Practice;
+@FunctionalInterface
+interface Intf1{
+	int sum(int[]a);
+}
+public class SumEvenNumbers {
+
+	private static Intf1 intf1;
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int arr[] = {11,29,31,45,5,34};
+		Intf1 ref = (a) -> {
+			int sum =0;
+			for (int i=0 ; i<arr.length;i++) {
+				if( arr[i]%2 ==0) {
+					sum=sum+arr[i];
+					
+				}
+			}
+			System.out.println("the sum of even number is :");
+		 return sum;
+		};
+		System.out.println("sum of even number = "+intf1.sum(arr));
+				
+		}
+
+	}
+
+

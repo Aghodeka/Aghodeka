@@ -1,0 +1,9 @@
+package Exercise7;
+
+public class ReverseArray {
+	static void getSorted(int a[], int n)
+	{
+		int[]
+	}
+
+}

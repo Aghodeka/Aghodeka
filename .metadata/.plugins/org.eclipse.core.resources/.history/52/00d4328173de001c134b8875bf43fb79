@@ -1,0 +1,7 @@
+package Exercise5;
+
+import java.io.BufferedInputStream;
+
+public class FileInputeStream extends BufferedInputStream {
+
+}
